@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penerapan Conditional pada Vue Js</title>
+</head>
+
+<body>
+    <div id="app">
+        <b v-if="tampilkan  == 'tampil'">{{ message }}</b>
+    </div>
+    <div id="app2">
+        <b v-show="showif == 'ada' "> {{datashow}}</b>
+    </div>
+    <div id="app3">
+        <b v-if="tampilif">{{jikaif}}</b>
+        <b v-else="tampilif">{{jikaelse}}</b>
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="apps.js"></script>
+
+</body>
+
+</html>
